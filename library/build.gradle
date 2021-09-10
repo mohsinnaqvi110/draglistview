@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 29
@@ -31,5 +32,3 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     testImplementation 'com.squareup.assertj:assertj-android:1.0.0'
 }
-
-apply from: 'maven-publish.gradle'
