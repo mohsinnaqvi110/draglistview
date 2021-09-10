@@ -13,6 +13,17 @@ version = '0.0.1'
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'org.gradle.sample'
+            artifactId = 'library'
+            version = '6.0'
+
+        }
+    }
+}
+
 android {
     compileSdkVersion 29
     buildToolsVersion '28.0.3'
