@@ -1,5 +1,15 @@
+plugins {
+     id 'maven-publish'
+}
+
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
+
+description = "drag view"
+group = "com.drag"
+version = '0.0.1'
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
 
 android {
     compileSdkVersion 29
