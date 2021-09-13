@@ -7,23 +7,6 @@ plugins {
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
-//description = "drag view"
-//group = "com.drag"
-//version = '0.0.1'
-//sourceCompatibility = JavaVersion.VERSION_11
-//targetCompatibility = JavaVersion.VERSION_11
-//
-//publishing {
-//    publications {
-//        mavenJava(MavenPublication) {
-//            groupId = 'org.gradle.sample'
-//            artifactId = 'library'
-//            version = '6.0'
-//
-//        }
-//    }
-//}
-
 android {
     compileSdkVersion 29
     buildToolsVersion '28.0.3'
@@ -32,7 +15,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "8.0"
     }
     buildTypes {
         release {
